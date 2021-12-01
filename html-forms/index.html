@@ -19,19 +19,30 @@
       <option value="Because it's interesting">Becuase it's interesting</option>
     </select>
     <div>Favorite Language (choose one)</div>
-    <input type="radio" name="coding language" value="HTML" />
-    HTML
-    <input type="radio" name="coding language" value="CSS" />
-    CSS
-    <input type="radio" name="coding language" value="JavaScript" />
-    JavaScript
+    <label>
+      <input type="radio" name="coding-language" value="HTML" />
+      HTML
+    </label>
+    <label>
+      <input type="radio" name="coding-language" value="CSS" />
+      CSS
+    </label>
+    <label>
+      <input type="radio" name="coding-language" value="JavaScript" />
+      JavaScript
+    </label>
 
-    <div>Would you like to sign up for more information?</div>
-    <input type="checkbox" name="sign me up" value="Sign me up" />
-    Sign Me Up!
-
-    <div>Comments</div>
-    <textarea type="text" name="comment" cals="20" rows="8"> </textarea>
-    <div><input type="submit" name="submit" value="Submit" /></div>
+    <p>Would you like to sign up for more information?</p>
+    <label for="sign me up">
+      <input type="checkbox" name="sign me up" value="Sign me up" />
+      Sign Me Up!
+    </label>
+    <div>
+      <h4>Comments</h4>
+      <textarea type="text" name="comment" cals="20" rows="8"> </textarea>
+      <div>
+        <input type="submit" name="submit" value="Submit" />
+      </div>
+    </div>
   </form>
 </html>
