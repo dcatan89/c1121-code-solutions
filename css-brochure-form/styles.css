@@ -1,9 +1,9 @@
 h4 {
   font-family: "Brandon Grotesque";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   text-align: center;
-  color: tomato;
+  color: rgb(245, 90, 62);
   margin-bottom: 5px;
 }
 
@@ -38,11 +38,14 @@ input {
 }
 
 select {
+  font-family: AtlasGrotesk;
+  font-style: normal;
+  font-weight: 300;
   width: 100%;
   text-align: left;
   background-color: whitesmoke;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   padding-left: 2px;
   border-radius: 5px;
 }
