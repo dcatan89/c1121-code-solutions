@@ -3,7 +3,7 @@ h4 {
   font-style: normal;
   font-weight: 700;
   text-align: center;
-  color: rgb(245, 90, 62);
+  color: rgb(236, 91, 91);
   margin-bottom: 5px;
 }
 
@@ -29,7 +29,8 @@ input {
   padding: 10px;
   border-radius: 5px;
   border-width: 0.5px;
-  border-color: rgb(238, 238, 238);
+  border-color: rgb(202, 198, 198);
+  border-style: solid;
 }
 
 ::placeholder {
@@ -58,7 +59,7 @@ button {
   font-family: "Brandon Grotesque";
   font-style: normal;
   font-weight: 600;
-  background-color: rgb(233, 98, 74);
+  background-color: rgb(236, 91, 91);
   color: white;
   padding-top: 8px;
   padding-bottom: 8px;
