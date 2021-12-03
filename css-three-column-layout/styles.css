@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-  max-width: 100%;
+  max-width: 800px;
   margin: auto;
 }
 
@@ -21,27 +21,30 @@ body {
 }
 
 .column-third {
-  max-width: 100%;
-}
-
-.pictures {
-  background-color: rgb(250, 241, 233);
-  height: auto;
-}
-
-h3 {
-  text-align: center;
-  font-size: 16px;
-  letter-spacing: 1px;
   width: 100%;
 }
 
-p {
-  line-height: 150%;
-  color: rgb(195, 201, 197);
-  font-size: 14px;
-  padding-left: 10%;
-  padding-right: 10%;
+.pictures {
+  height: auto;
+  width: 100%;
+  padding: 25px;
+}
+
+.background {
+  display: flex;
+  background-color: white;
+  border-radius: 50%;
+  height: auto;
+  width: 25%;
+}
+
+.img-center {
+  width: 100%;
+}
+
+.blocks {
+  justify-content: center;
+  flex-direction: column;
 }
 
 h2 {
@@ -56,4 +59,5 @@ h2 {
   width: 100%;
   height: auto;
   text-align: center;
+  flex-direction: column;
 }
