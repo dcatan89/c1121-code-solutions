@@ -18,9 +18,7 @@
   /* your code here */
   position: absolute;
   right: 0;
-  right: 15px;
   top: 20px;
-  z-index: 7;
 }
 
 .joke {
@@ -35,7 +33,6 @@
   /* your code here */
   position: absolute;
   bottom: 0;
-  z-index: 6;
 }
 
 .overlay {
@@ -43,7 +40,6 @@
 
   /* your code here */
   position: absolute;
-  z-index: 5;
   bottom: 0;
   width: 100%;
   height: 100%;
