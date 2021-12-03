@@ -1,0 +1,65 @@
+
+body {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 400;
+  background-color: rgb(23, 140, 212);
+  color: linen;
+}
+
+.row {
+  display: flex;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-third {
+  width: 100%;
+}
+
+.pictures {
+  background-color: rgb(250, 241, 233);
+  width: 25%;
+  border-radius: 50%;
+  height: auto;
+  margin-left: 35%;
+  margin-right: 50%;
+  margin-top: 5%;
+  justify-content: center;
+}
+
+h3 {
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 1px;
+  width: 100%;
+}
+
+p {
+  line-height: 150%;
+  color: rgb(195, 201, 197);
+  font-size: 14px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+h2 {
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  letter-spacing: 0.1rem;
+  font-size: 2rem;
+}
+
+.words {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
