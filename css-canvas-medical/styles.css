@@ -1,0 +1,39 @@
+.row {
+  display: flex;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.end-page {
+  display: flex;
+  text-decoration: none;
+  color: #818181;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  align-self: center;
+  justify-content: left;
+  margin-right: 25px;
+  margin-left: -10px;
+  font-size: 10pt;
+}
+
+.end-page-one {
+  display: flex;
+  margin-left: 10%;
+}
+
+.sixth-row {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-color: #fafafa;
+  margin: 5%;
+}
