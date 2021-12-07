@@ -21,24 +21,23 @@
   height: 90px;
   padding-bottom: 2rem;
   padding-top: 2rem;
-  padding-left: 4%;
 }
 
-.first-row {
+.first-row-contains-logo-and-references {
   display: flex;
   width: 100%;
   max-height: 100%;
   border-bottom: solid;
-  border-color: #b3b3b3;
+  border-color: #e4e4e4;
 }
 
-.first-right {
+.top-of-page-anchors-and-contact-button {
   display: flex;
   flex-basis: 100%;
   margin-left: 0;
 }
 
-.first-ref {
+.top-right-reference-elements {
   display: flex;
   width: 100%;
   justify-content: center;
@@ -48,7 +47,7 @@
   font-weight: 500;
 }
 
-.first-anchor {
+.top-row-anchor-element {
   text-decoration: none;
   color: #6e6e6e;
 }
@@ -75,14 +74,14 @@
   background-color: #fafafa;
 }
 
-.sec-third {
+.box-contains-clinicians-and-locations {
   display: flex;
   width: 100%;
   flex-direction: column;
   text-align: center;
 }
 
-.third-p {
+.under-clinicians-header {
   padding-left: 50px;
   padding-right: 50px;
   height: 100%;
@@ -90,7 +89,7 @@
   margin-top: 0;
 }
 
-.fourth-row {
+.container-for-ready-learn-box {
   display: flex;
   height: 100%;
   width: 100%;
@@ -109,17 +108,16 @@
   font-family: Avenir;
   font-style: normal;
   font-weight: 500;
+  font-size: 1.2rem;
 }
 
-.button-four {
+.get-started-button-on-learn-more-row {
   display: flex;
   justify-content: right;
   width: 100%;
-  margin-right: 5%;
 }
 
-.sec-four {
-  margin-left: 5%;
+.ready-learn-more-box {
   width: 100%;
 }
 
@@ -141,8 +139,8 @@
   font-size: 0.8rem;
 }
 
-.word-third {
-  font-size: 14px;
+.words-that-describe-locations {
+  font-size: 16px;
   font-family: Avenir;
   font-style: normal;
   font-weight: 500;
@@ -153,7 +151,7 @@ button:hover {
   cursor: pointer;
 }
 
-.places {
+.facility-locations {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -174,23 +172,23 @@ button:hover {
   height: 90px;
   padding-bottom: 2rem;
   padding-top: 2rem;
-  padding-left: 20%;
   margin-top: 20%;
+  padding-left: 20%;
 }
 
-.text-addy {
+.contact-info {
   color: white;
   font-family: Avenir;
   font-style: normal;
   font-weight: 500;
   text-align: justify;
-  padding-left: 20%;
   line-height: 1.5rem;
   margin-bottom: 40%;
   font-size: 10pt;
+  padding-left: 20%;
 }
 
-.product {
+.product-column {
   display: flex;
   flex-direction: column;
   color: white;
@@ -202,22 +200,20 @@ button:hover {
   padding-left: 10%;
 }
 
-.company {
+.company-column {
   display: flex;
   flex-direction: column;
-  align-self: flex-start;
   color: white;
   font-family: Avenir;
   font-style: normal;
   font-weight: 500;
-  margin-bottom: 5%;
-  padding-left: 50px;
+  margin-bottom: 16%;
+  margin-right: 10px;
 }
 
-.sixth-sec {
+.footer {
   display: flex;
   height: 100px;
-  padding-left: 5%;
 }
 
 .background-dgrey {
@@ -225,6 +221,16 @@ button:hover {
 }
 
 .flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  line-height: 0.45rem;
+  padding-left: 20%;
+}
+
+.info-logo-anchor-elements-in-dgrey-background {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -244,12 +250,68 @@ button:hover {
   width: 10%;
   height: auto;
   align-items: center;
+  justify-content: start;
 }
 
 .hero-image {
+  display: flex;
   position: relative;
+  background-image: url("images/hero.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 650px;
+  margin-top: 5%;
+  padding-bottom: 40%;
+  margin-bottom: 5%;
 }
 
-.elements-on-hero-image {
+.hero-image > img {
+  width: 100%;
+}
+
+.h1-on-hero-img {
   position: absolute;
+  width: 50%;
+  color: white;
+  font-family: "Tiempos Headline";
+  font-style: normal;
+  font-weight: normal;
+  left: 75px;
+  top: 60px;
+  font-size: 2.75rem;
+}
+
+.p-on-hero-img {
+  position: absolute;
+  color: white;
+  width: 50%;
+  left: 80px;
+  top: 210px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2;
+  font-size: 1.1rem;
+}
+
+.button-on-hero-img {
+  position: absolute;
+  bottom: 130px;
+  left: 80px;
+}
+
+.overlay {
+  position: absolute;
+  background: linear-gradient(transparent, rgba(56, 56, 56, 0.75));
+  height: 100%;
+  width: 100%;
+}
+
+.hero-img-container {
+  margin: auto;
+}
+
+.height-half {
+  max-height: 50%;
 }
