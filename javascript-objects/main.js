@@ -23,6 +23,7 @@ vehicle['color'] = 'silver';
 vehicle['isConvertible'] = false;
 console.log('value of vehicle[color]:', vehicle['color']);
 console.log('value of vehincle[isConvertible]:', vehicle['isConvertible']);
+console.log('value of vehicle:', vehicle);
 
 var pet = {
   name: 'Peaches',
