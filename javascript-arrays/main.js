@@ -22,10 +22,10 @@ var students = [
 ];
 
 var numberOfStudents = students.length;
-console.log('There are 4 students in the classroom');
+console.log('There are ' + numberOfStudents + ' ' + 'students in the classroom');
 
 var lastIndex = numberOfStudents.length - 1;
 var lastStudent = lastIndex[2];
 
-console.log('The last student left was Shawn');
+console.log('The last student left was', lastStudent);
 console.log(students);
