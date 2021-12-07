@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1000px;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-fourth {
+  width: 25%;
+}
+
+.background-color-lgrey {
+  background-color: lightgray;
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  color: crimson;
+  margin: 0;
+}
