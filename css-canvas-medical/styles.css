@@ -16,7 +16,6 @@
 }
 
 .logo-blue {
-  display: flex;
   width: 100%;
   height: 90px;
   padding-bottom: 2rem;
@@ -24,22 +23,19 @@
   padding-left: 5.5%;
 }
 
-.first-row-contains-logo-and-references {
-  display: flex;
+.logo-and-references {
   width: 100%;
   max-height: 100%;
   border-bottom: solid;
   border-color: #e4e4e4;
 }
 
-.top-of-page-anchors-and-contact-button {
-  display: flex;
+.anchors-and-contact-button {
   flex-basis: 100%;
   margin-left: 0;
 }
 
 .top-right-reference-elements {
-  display: flex;
   width: 100%;
   justify-content: center;
   align-items: center;
@@ -75,8 +71,7 @@
   background-color: #fafafa;
 }
 
-.box-contains-clinicians-and-locations {
-  display: flex;
+.clinicians-canvas-section {
   width: 100%;
   flex-direction: column;
   text-align: center;
@@ -90,8 +85,7 @@
   margin-top: 0;
 }
 
-.container-for-ready-learn-box {
-  display: flex;
+.ready-learn-section {
   height: 100%;
   width: 100%;
   align-items: center;
@@ -112,8 +106,7 @@
   font-size: 1.2rem;
 }
 
-.get-started-button-on-learn-more-row {
-  display: flex;
+.button-learn-more-section {
   justify-content: right;
   width: 100%;
   padding-right: 5%;
@@ -122,6 +115,7 @@
 .ready-learn-more-box {
   width: 100%;
   padding-left: 6%;
+  flex-direction: column;
 }
 
 .head-par {
@@ -155,7 +149,6 @@ button:hover {
 }
 
 .facility-locations {
-  display: flex;
   flex-direction: row;
   width: 100%;
   height: auto;
@@ -170,7 +163,6 @@ button:hover {
 }
 
 .logo-white {
-  display: flex;
   width: 100%;
   height: 90px;
   padding-bottom: 2rem;
@@ -192,7 +184,6 @@ button:hover {
 }
 
 .product-column {
-  display: flex;
   flex-direction: column;
   color: white;
   font-family: Avenir;
@@ -204,7 +195,6 @@ button:hover {
 }
 
 .company-column {
-  display: flex;
   flex-direction: column;
   color: white;
   font-family: Avenir;
@@ -215,7 +205,6 @@ button:hover {
 }
 
 .footer {
-  display: flex;
   height: 100px;
   padding-left: 5%;
 }
@@ -224,8 +213,7 @@ button:hover {
   background-color: #525351;
 }
 
-.flex {
-  display: flex;
+.company-product-section {
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
@@ -244,7 +232,6 @@ button:hover {
 }
 
 .footer-anchors {
-  display: flex;
   text-decoration: none;
   color: #818181;
   font-family: Avenir;
