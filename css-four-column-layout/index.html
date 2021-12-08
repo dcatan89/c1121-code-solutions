@@ -6,11 +6,64 @@
   <title>CSS Four Column Layout</title>
   </head>
 <link href="styles.css" rel="stylesheet">
-  <body>
-    <div class="container background-color-lgrey">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet">
+  <body class= "background-color-lgrey">
+    <div class="container margin-left-right-auto">
       <div class="row">
-        <div class="column-full justify-center">
-          <h2 class="header">How It Works</h2>
+        <div class="column-full justify-center margin-top">
+          <h2 class="header bold barlow-font">How It Works</h2>
+        </div>
+      </div>
+      <div class="row ">
+        <div class=" column-fourth flex-column  ">
+          <div class="phone-screen-imgs">
+            <img src="images/screen-1.png">
+          </div>
+          <div class="justify-center">
+            <img class="small-icon-imgs" src="images/switch-icon.png">
+          </div>
+          <div class="head-par-section flex-column justify-center ">
+            <h3 class="center-align barlow-font-bold ">App Switching</h3>
+            <p class="center-align barlow-font font-size-adjust">Toggles all your apps on and off</p>
+          </div>
+        </div>
+        <div class="column-fourth ">
+          <div class="phone-screen-imgs">
+            <img src="images/screen-2.png">
+          </div>
+          <div class="justify-center">
+            <img class="small-icon-imgs" src="images/filter-icon.png">
+          </div>
+          <div class="head-par-section flex-column justify-center">
+            <h3 class="center-align barlow-font-bold">Trip Filtering</h3>
+            <p class="center-align barlow-font font-size-adjust">Evaluates your trip requests</p>
+          </div>
+        </div>
+        <div class="column-fourth ">
+          <div class="phone-screen-imgs">
+            <img src="images/screen-3.png">
+          </div>
+          <div class="justify-center">
+            <img class="small-icon-imgs" src="images/slider-icon.png">
+          </div>
+          <div class="head-par-section flex-column justify-center">
+            <h3 class="center-align barlow-font-bold">Service Filters</h3>
+            <p class="center-align barlow-font font-size-adjust">Accepts only your ideal trips</p>
+          </div>
+        </div>
+        <div class="column-fourth ">
+          <div class="phone-screen-imgs">
+            <img src="images/screen-4.png">
+          </div>
+          <div class="justify-center">
+            <img class="small-icon-imgs" src="images/bars-icon.png">
+          </div>
+          <div class="head-par-section flex-column justify-center">
+            <h3 class="center-align barlow-font-bold">Stats + Mileage</h3>
+            <p class="center-align barlow-font font-size-adjust">Tracks your trips across all apps</p>
+          </div>
         </div>
       </div>
     </div>
