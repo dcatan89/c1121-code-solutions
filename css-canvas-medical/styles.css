@@ -21,6 +21,7 @@
   height: 90px;
   padding-bottom: 2rem;
   padding-top: 2rem;
+  padding-left: 5.5%;
 }
 
 .first-row-contains-logo-and-references {
@@ -115,10 +116,12 @@
   display: flex;
   justify-content: right;
   width: 100%;
+  padding-right: 5%;
 }
 
 .ready-learn-more-box {
   width: 100%;
+  padding-left: 6%;
 }
 
 .head-par {
@@ -139,7 +142,7 @@
   font-size: 0.8rem;
 }
 
-.words-that-describe-locations {
+.locations-section {
   font-size: 16px;
   font-family: Avenir;
   font-style: normal;
@@ -197,7 +200,7 @@ button:hover {
   font-weight: 500;
   font-size: 16px;
   margin-bottom: 5%;
-  padding-left: 10%;
+  margin-right: 15%;
 }
 
 .company-column {
@@ -208,12 +211,13 @@ button:hover {
   font-style: normal;
   font-weight: 500;
   margin-bottom: 16%;
-  margin-right: 10px;
+  margin-right: 100px;
 }
 
 .footer {
   display: flex;
   height: 100px;
+  padding-left: 5%;
 }
 
 .background-dgrey {
@@ -239,7 +243,7 @@ button:hover {
   line-height: 0.45rem;
 }
 
-.end-page {
+.footer-anchors {
   display: flex;
   text-decoration: none;
   color: #818181;
@@ -314,4 +318,8 @@ button:hover {
 
 .height-half {
   max-height: 50%;
+}
+
+.margin-right {
+  margin-right: 5%;
 }
