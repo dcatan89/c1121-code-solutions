@@ -24,7 +24,7 @@
   padding-bottom: 5%;
 }
 
-.bottom-left-box-of-image-with-words {
+.circumstance-section {
   display: flex;
   height: auto;
   margin: 0;
@@ -33,7 +33,7 @@
   padding-bottom: 5%;
 }
 
-.top-right-box-of-image-with-words {
+.administration-section {
   display: flex;
   height: auto;
   margin: 0;
@@ -42,7 +42,7 @@
   padding-bottom: 5%;
 }
 
-.bottom-right-box-of-image-with-words {
+.data-transform-section {
   display: flex;
   height: auto;
   margin: 0;
@@ -111,13 +111,13 @@
   width: 110px;
 }
 
-.last-row-containing-button-element {
+.button-section {
   display: flex;
   justify-content: center;
   margin-top: 20px;
 }
 
-button {
+.learn-button {
   font-family: Karla;
   font-size: 13px;
   font-weight: 600;
