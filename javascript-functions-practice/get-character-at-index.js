@@ -1,5 +1,5 @@
 /* exported getCharacterAtIndex */
-function getCharacterAtIndex(index) {
-  var characterIndex = [0];
+function getCharacterAtIndex(string, index) {
+  var characterIndex = string.charAt(index);
   return characterIndex;
 }
