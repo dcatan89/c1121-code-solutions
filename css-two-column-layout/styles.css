@@ -15,7 +15,7 @@
   width: 50%;
 }
 
-.top-left-box-of-image-with-words {
+.smart-software-section {
   display: flex;
   height: auto;
   margin: 0;
@@ -55,14 +55,14 @@
   justify-content: center;
 }
 
-.big-row-containing-all-main-body-content {
+.main-body-content {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
   margin: 0;
 }
 
-.bighead {
+.biggest-header-section {
   text-transform: uppercase;
   font-size: 40px;
   font-family: Karla;
@@ -73,7 +73,7 @@
   letter-spacing: 0.2rem;
 }
 
-.head {
+.head-elements {
   text-transform: uppercase;
   font-family: Karla;
   font-style: normal;
