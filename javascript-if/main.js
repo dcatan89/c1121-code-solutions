@@ -38,7 +38,9 @@ function isOldEnoughToDrive(person) {
   }
 }
 function isOldEnoughToDrinkAndDrive(person) {
-  if (person !== 0) { return false; }
+  if (person !== 0) {
+    return false;
+  }
 
 }
 
