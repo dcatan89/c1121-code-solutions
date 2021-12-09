@@ -9,32 +9,37 @@
  */
 
 function isUnderFive(number) {
-  if (number < 5);
-  return true;
+  if (number < 5) {
+    return true;
+  }
 }
 
 function isEven(number) {
-  if (number % 2);
-  return true;
+  if (number % 2) {
+    return true;
+  }
 }
 
 function startsWithJ(string) {
-  if (string[0] === 'J');
-  return true;
+  if (string[0] === 'J') {
+    return true;
+  }
 }
 
-function isOldEnoughToDrink(number) {
-  if (number >= 21);
-  return true;
+function isOldEnoughToDrink(person) {
+  if (person >= 21) {
+    return true;
+  }
 }
 
-function isOldEnoughToDrive(number) {
-  if (number >= 16);
-  return true;
+function isOldEnoughToDrive(person) {
+  if (person >= 16) {
+    return true;
+  }
 }
-function isOldEnoughToDrinkAndDrive(age) {
-  if (age !== 0);
-  return false;
+function isOldEnoughToDrinkAndDrive(person) {
+  if (person !== 0) { return false; }
+
 }
 
 function categorizeAcidity(pH) {
