@@ -1,6 +1,6 @@
 /* exported getInitialsOfPerson */
 function getInitialsOfPerson(person) {
 
-  return person.getInitials();
+  return person.firstName.charAt(0) + person.lastName.charAt(0);
 
 }
