@@ -1,0 +1,140 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-half {
+  width: 50%;
+}
+
+.smart-software-section {
+  height: auto;
+  margin: 0;
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.circumstance-section {
+  height: auto;
+  margin: 0;
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.administration-section {
+  height: auto;
+  margin: 0;
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.data-transform-section {
+  height: auto;
+  margin: 0;
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.align-center {
+  justify-content: center;
+}
+
+.main-body-content {
+  flex-wrap: nowrap;
+  flex-direction: row;
+  margin: 0;
+}
+
+.biggest-header-section {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 5px;
+  letter-spacing: 0.2rem;
+}
+
+.head-elements {
+  text-transform: uppercase;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: 700;
+  padding-right: 30%;
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+}
+
+.row-containing-pelement-under-h1-element {
+  text-align: center;
+  margin: 0 100px 0;
+  color: rgb(114, 114, 114);
+  font-size: 0.75rem;
+  line-height: 1.2rem;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.words {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  color: rgb(114, 114, 114);
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}
+
+.pictures {
+  padding: 10px;
+  height: auto;
+  width: 110px;
+}
+
+.button-section {
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.learn-button {
+  font-family: Karla;
+  font-size: 13px;
+  font-weight: 600;
+  font-style: normal;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-transform: uppercase;
+  background-color: white;
+  color: #df544c;
+  border-color: #df544c;
+  border-style: solid;
+}
+
+button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: black;
+}
+
+section {
+  padding-right: 40px;
+  padding-top: 20px;
+}
