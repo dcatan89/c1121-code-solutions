@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -39,16 +39,14 @@ body {
 }
 
 .lv-bag-img {
-  height: 100%;
-  width: 100%;
-  background-image: url("images/lv-bag.jpg");
-  background-size: 100%;
+  max-height: 100%;
+  max-width: 100%;
   object-fit: contain;
 }
 
 .tiffany-key-img {
   height: auto;
-  width: 50%;
+  width: 100%;
   background-image: url("images/key.jpeg");
   object-fit: contain;
 }
@@ -56,7 +54,6 @@ body {
 .ysl-img {
   height: auto;
   width: 100%;
-  padding: 20%;
 }
 
 .header-arrivals {
@@ -81,4 +78,39 @@ body {
 
 .height-full {
   max-height: 100%;
+}
+
+.sizes-info {
+  border-left: solid gainsboro;
+  border-width: thin;
+  padding-left: 5px;
+}
+
+.prices {
+  background-color: #fef2e7;
+}
+
+.padding {
+  padding: %;
+}
+
+.margin-left-right {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.item-price-section {
+  margin-bottom: 0;
+  w
+}
+
+.font {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.65rem;
+}
+
+.width {
+  width: 100%;
 }
