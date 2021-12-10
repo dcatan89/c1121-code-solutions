@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-fifth {
+  width: calc(100% / 5);
+}
+
+.free-people-img {
+  position: relative;
+  height: auto;
+  width: 100%;
+  background-image: url("images/dress1.jpg");
+  object-fit: contain;
+}
+
+.reformation-dress-img {
+  height: auto;
+  width: 100%;
+  background-image: url("images/dress2.jpg");
+  object-fit: contain;
+}
+
+.lv-bag-img {
+  height: 100%;
+  width: 100%;
+  background-image: url("images/lv-bag.jpg");
+  background-size: 100%;
+  object-fit: contain;
+}
+
+.tiffany-key-img {
+  height: auto;
+  width: 50%;
+  background-image: url("images/key.jpeg");
+  object-fit: contain;
+}
+
+.ysl-img {
+  height: auto;
+  width: 100%;
+  padding: 20%;
+}
+
+.header-arrivals {
+  justify-content: center;
+  width: 100%;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+}
+
+.lgrey-font {
+  color: gainsboro;
+}
+
+.free-people-section {
+  width: 100%;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.height-full {
+  max-height: 100%;
+}
