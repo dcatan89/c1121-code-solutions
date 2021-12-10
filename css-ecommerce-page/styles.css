@@ -36,6 +36,10 @@ body {
   object-fit: contain;
 }
 
+.reformation-words-section {
+  margin-top: 18px;
+}
+
 .lv-bag-img {
   height: 270.53px;
   max-width: 100%;
@@ -46,7 +50,7 @@ body {
 }
 
 .lv-words-section {
-  margin-top: 1px;
+  margin-top: 20px;
 }
 
 .height-full {
