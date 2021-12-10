@@ -68,10 +68,6 @@ body {
   color: gainsboro;
 }
 
-.free-people-section {
-  width: 100%;
-}
-
 .flex-column {
   flex-direction: column;
 }
