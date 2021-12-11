@@ -84,10 +84,6 @@ body {
   flex-direction: column;
 }
 
-.height-full {
-  max-height: 100%;
-}
-
 .sizes-info {
   border-left: solid gainsboro;
   border-width: thin;
@@ -109,7 +105,7 @@ body {
 
 .item-price-section {
   margin-bottom: 0;
-  w
+  margin-top: 15px;
 }
 
 .font {
