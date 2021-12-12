@@ -6,7 +6,8 @@
 -check if the word has any capital letters one by one, this will start after the first letter
   if true add the letter to the storage and repeat the process
   if false add the letter to the storage and repeat the process
--
+-once all letters have been looked at return the output capitalizing the first letter
+then lowercasing the rest of the letters
 */
 function capitalizeWord(word) {
   var yesSir = '';
