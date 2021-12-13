@@ -8,9 +8,8 @@
 
 function toObject(keyValuePair) {
   var pairs = { };
-  for (var i = 0; i < keyValuePair.length; i += 2) {
-    pairs[keyValuePair[i]] = keyValuePair[i + 1];
-  }
+
+  pairs[keyValuePair[0]] = keyValuePair[1];
 
   return pairs;
 }

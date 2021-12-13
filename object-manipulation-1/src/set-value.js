@@ -5,7 +5,5 @@
 -return the output */
 
 function setValue(object, key, value) {
-  var objections = {};
-  objections = (object[key] = value);
-  return objections;
+  object[key] = value;
 }
