@@ -5,10 +5,10 @@ First find the length of the array
 -Return the output of the list */
 
 function tail(array) {
-  var noNum1 = [];
+  var noZeroIndex = [];
   for (var i = 1; i < array.length; i++) {
-    noNum1.push(array[i]);
+    noZeroIndex.push(array[i]);
   }
-  return noNum1;
+  return noZeroIndex;
 
 }
