@@ -8,11 +8,10 @@
     -return the output of the storage */
 
 function getWords(words) {
-  for (var i = 0; i <= words.length; i++) {
-    if (words[i] === '') {
-      words.split('');
-    } else if (words.length > 2) {
-      return words.split(' ');
-    } else { return []; }
+  var wordBox = words.split(' ');
+  if (words === '') {
+    return [];
   }
+
+  return wordBox;
 }

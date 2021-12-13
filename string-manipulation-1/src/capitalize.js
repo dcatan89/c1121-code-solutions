@@ -15,5 +15,5 @@ function capitalize(word) {
 
     rest += word[i];
   }
-  return words.toUpperCase(words) + rest.toLowerCase(rest);
+  return words.toUpperCase() + rest.toLowerCase();
 }

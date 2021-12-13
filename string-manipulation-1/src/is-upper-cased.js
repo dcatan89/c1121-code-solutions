@@ -3,7 +3,7 @@
 - if not, return as false */
 function isUpperCased(word) {
 
-  if (word !== word.toUpperCase(word)) {
+  if (word !== word.toUpperCase()) {
     return false;
   } else { return true; }
 

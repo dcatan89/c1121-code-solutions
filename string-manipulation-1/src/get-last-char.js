@@ -5,5 +5,5 @@
 -Return the output of that value */
 
 function getLastChar(string) {
-  return string[(string.length - 1)];
+  return string[string.length - 1];
 }

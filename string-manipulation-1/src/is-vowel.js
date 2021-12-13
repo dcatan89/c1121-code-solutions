@@ -3,8 +3,9 @@
   -if not, return false */
 
 function isVowel(char) {
-  if ((char.toUpperCase(char) === 'A') || (char.toUpperCase(char) === 'E') || (char.toUpperCase(char) === 'I') || (char.toUpperCase(char) === 'O') ||
-    (char.toUpperCase(char) === 'U')) {
+  var upperCased = char.toUpperCase();
+  if ((upperCased === 'A') || (upperCased === 'E') || (upperCased === 'I') || (upperCased === 'O') ||
+    (upperCased === 'U')) {
     return true;
   } else return false;
 }
