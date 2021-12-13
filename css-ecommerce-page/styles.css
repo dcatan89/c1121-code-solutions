@@ -94,10 +94,6 @@ body {
   background-color: #fef2e7;
 }
 
-.padding {
-  padding: %;
-}
-
 .margin-left-right {
   margin-left: 5%;
   margin-right: 5%;
@@ -105,7 +101,7 @@ body {
 
 .item-price-section {
   margin-bottom: 0;
-  margin-top: 15px;
+  margin-top: 2%;
 }
 
 .font {
