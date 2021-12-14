@@ -7,7 +7,7 @@
 function compact(array) {
   var hipHipArray = [];
   for (var i = 0; i < array.length; i++) {
-    if (!!array[i] === true) {
+    if (array[i]) {
       hipHipArray.push(array[i]);
     }
   }
