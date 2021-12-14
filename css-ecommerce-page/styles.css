@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-fifth {
+  width: calc(100% / 5);
+}
+
+.free-people-img {
+  position: relative;
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+}
+
+.reformation-dress-img {
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+}
+
+.reformation-words-section {
+  margin-top: 18px;
+}
+
+.lv-bag-img {
+  height: 270.53px;
+  max-width: 100%;
+  object-fit: contain;
+  background-image: url("images/lv-bag.jpg");
+  background-size: 110%;
+  background-repeat: no-repeat;
+}
+
+.lv-words-section {
+  margin-top: 20px;
+}
+
+.height-full {
+  height: 100%;
+}
+
+.tiffany-key-img {
+  height: 265px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.ysl-img {
+  height: auto;
+  width: 100%;
+}
+
+.header-arrivals {
+  justify-content: center;
+  width: 100%;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+}
+
+.lgrey-font {
+  color: gainsboro;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.sizes-info {
+  border-left: solid gainsboro;
+  border-width: thin;
+  padding-left: 5px;
+}
+
+.prices {
+  background-color: #fef2e7;
+}
+
+.margin-left-right {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.item-price-section {
+  margin-bottom: 0;
+  margin-top: 2%;
+}
+
+.font {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.65rem;
+}
+
+.width {
+  width: 100%;
+}
