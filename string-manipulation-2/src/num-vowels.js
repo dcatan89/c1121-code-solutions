@@ -5,8 +5,7 @@
 -We also check every non vowel into a separate storage.
 -Return the storage with the strings */
 function numVowels(string) {
-  var numberStore = '';
-  var numberWaste = '';
+  var numberStore = 0;
   var capitalized = string.toUpperCase();
 
   if (string.length === 0) {
@@ -17,7 +16,7 @@ function numVowels(string) {
       (capitalized[i]) === 'I' || capitalized[i] === 'O' ||
       capitalized[i] === 'U') {
       numberStore++;
-    } else { numberWaste = false; }
+    } else { numberStore += 0; }
   }
   return numberStore;
 }

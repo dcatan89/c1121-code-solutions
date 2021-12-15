@@ -10,15 +10,14 @@
 then lowercasing the rest of the letters
 */
 function capitalizeWord(word) {
-  var yesSir = '';
+  var capitalizedWord = '';
   var firstOne = word[0];
-  for (var i = 1; i < word.length; i++) {
-
-    if (word.toUpperCase(word) === 'JAVASCRIPT') {
-      return 'JavaScript';
-    } else if (word[i] === word.toUpperCase(i)) {
-      yesSir += word[i];
-    } else { yesSir += word[i]; }
+  if (word.toUpperCase(word) === 'JAVASCRIPT') {
+    return 'JavaScript';
   }
-  return firstOne.toUpperCase() + yesSir.toLowerCase();
+
+  for (var i = 1; i < word.length; i++) {
+    capitalizedWord += word[i];
+  }
+  return firstOne.toUpperCase() + capitalizedWord.toLowerCase();
 }

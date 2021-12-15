@@ -4,13 +4,13 @@
 // add the rest of the string before and after the secondIndex and store it
 // Return the storage as the output
 function swapChars(firstIndex, secondIndex, string) {
-  var revengeOfSith = '';
+  var swappedChars = '';
   for (var i = 0; i < string.length; i++) {
     if (i === firstIndex) {
-      revengeOfSith += string[secondIndex];
+      swappedChars += string[secondIndex];
     } else if (i !== secondIndex) {
-      revengeOfSith += string[i];
-    } else { revengeOfSith += string[firstIndex]; }
+      swappedChars += string[i];
+    } else { swappedChars += string[firstIndex]; }
   }
-  return revengeOfSith;
+  return swappedChars;
 }

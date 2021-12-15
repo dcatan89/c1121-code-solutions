@@ -1,13 +1,13 @@
 /* exported lastChars */
 function lastChars(length, string) {
-  var lastSkywalker = '';
+  var lastSkyChar = '';
   for (var i = string.length - length; i < string.length; i++) {
 
     if (length > string.length) {
       return string;
     } else {
-      lastSkywalker += string[i];
+      lastSkyChar += string[i];
     }
   }
-  return lastSkywalker;
+  return lastSkyChar;
 }
