@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.modal-button {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(74, 47, 224);
+  height: 100%;
+  font-size: 24px;
+  color: white;
+  box-shadow: 2px 2px 1px rgb(163, 160, 160);
+  border: none;
+  border-radius: 3px;
+}
