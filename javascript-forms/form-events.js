@@ -12,9 +12,9 @@ function handleInput(event) {
   console.log('eventName:', event.target.name, 'eventValue:', event.target.value);
 }
 
-var focusEvent = document.querySelector('form');
-var blurEvent = document.querySelector('form');
-var inputEvent = document.querySelector('form');
+var focusEvent = document.querySelector('#user-name');
+var blurEvent = document.querySelector('#user-email');
+var inputEvent = document.querySelector('#user-message');
 
 focusEvent.addEventListener('focus', handleFocus);
 blurEvent.addEventListener('blur', handleBlur);
