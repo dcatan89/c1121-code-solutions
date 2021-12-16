@@ -1,14 +1,15 @@
 var lightBulbClicker = document.querySelector('.light-bulb-on');
 var background = document.querySelector('.light-background');
-var i = 0;
+var i = true;
 function onOff(event) {
-  i++;
-  if (i % 2 === 0) {
+  if (i === true) {
     lightBulbClicker.className = 'light-bulb-on';
     background.className = 'light-background';
+    i = false;
   } else {
     lightBulbClicker.className = 'light-bulb-off';
     background.className = 'black-background';
+    i = true;
   }
 
 }
