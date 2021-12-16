@@ -18,6 +18,14 @@
   justify-content: center;
 }
 
+.column-half {
+  width: 50%;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
 .modal-button {
   padding-left: 30px;
   padding-right: 30px;
@@ -30,4 +38,15 @@
   box-shadow: 2px 2px 1px rgb(163, 160, 160);
   border: none;
   border-radius: 3px;
+}
+
+.no-button {
+  padding: 10px 35px 10px 35px;
+  background-color: rgb(223, 98, 98);
+  color: white;
+  font-size: 24px;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 2px 2px 1px  rgb(163, 160, 160);
+  margin-left: 10px;
 }
