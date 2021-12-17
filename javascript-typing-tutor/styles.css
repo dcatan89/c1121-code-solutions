@@ -1,0 +1,31 @@
+
+.column-full {
+  width: 100%;
+}
+
+.h1-box {
+  letter-spacing: -2.5px;
+  font-family: sans-serif;
+  justify-content: center;
+  text-align: center;
+}
+
+.span-neutral {
+  font-weight: 1000px;
+  border-bottom: solid black;
+  padding-bottom: 5px;
+}
+
+.span-correct {
+  font-weight: 1000px;
+  color: #1ece22;
+  border-bottom: solid black;
+  padding-bottom: 5px;
+}
+
+.span-wrong {
+  font-weight: 1000px;
+  color: red;
+  border-bottom: solid red;
+  padding-bottom: 5px;
+}
