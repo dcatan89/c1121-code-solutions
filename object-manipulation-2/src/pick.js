@@ -1,7 +1,7 @@
 /* exported pick */
 // make storage for the output
 // check if the array values are properties in the object
-// Check ove3r each value one by one to see if key is a property
+// Check over each value one by one to see if key is a property
 // if true store the source.key[key[i]]
 //  if true store the object property and values.
 //  if false ,return and do not include it in the array.
