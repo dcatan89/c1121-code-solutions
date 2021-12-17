@@ -17,5 +17,12 @@ var blurEvent = document.querySelector('#user-email');
 var inputEvent = document.querySelector('#user-message');
 
 focusEvent.addEventListener('focus', handleFocus);
+focusEvent.addEventListener('blur', handleBlur);
+focusEvent.addEventListener('input', handleInput);
 blurEvent.addEventListener('blur', handleBlur);
+blurEvent.addEventListener('focus', handleFocus);
+blurEvent.addEventListener('input', handleInput);
+
 inputEvent.addEventListener('input', handleInput);
+inputEvent.addEventListener('blur', handleBlur);
+inputEvent.addEventListener('focus', handleFocus);
