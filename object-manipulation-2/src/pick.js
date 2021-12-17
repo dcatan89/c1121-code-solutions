@@ -6,13 +6,15 @@
 // Return the storage as output,
 
 function pick(source, key) {
-  var objectOutput = {};
+  var objectOutput ={};
+for (var prop in source) {
   for (var i = 0; i < key.length; i++) {
-    for (var property in source) {
-      if (source[property] === source[key[i]]) {
-        objectOutput += source[key[i]];
+      if (source[key[i]] === key[i]) {
+        objectOutput =
+          key[i] : source[property];
       } else { false; }
     }
   }
+
   return objectOutput;
 }
