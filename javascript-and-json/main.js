@@ -22,7 +22,6 @@ var booksArray = [
 console.log('BooksArray:', booksArray);
 console.log('typeof booksArray:', typeof booksArray);
 
-JSON.stringify(booksArray);
 console.log('JSON BooksArray:', JSON.stringify(booksArray));
 console.log('typeof JSON:', typeof JSON.stringify(booksArray));
 
@@ -31,5 +30,4 @@ var student = '{"id": 1738, "name": "Dj Catan"}';
 console.log('student:', student);
 console.log('typeof student:', typeof student);
 
-JSON.parse(student);
 console.log(JSON.parse(student));
