@@ -4,28 +4,28 @@
 }
 
 .h1-box {
-  letter-spacing: -2.5px;
-  font-family: sans-serif;
+  letter-spacing: -2px;
+  font-family: 'Arvo', serif;
+  font-weight: bold;
   justify-content: center;
   text-align: center;
 }
 
 .span-neutral {
-  font-weight: 1000px;
   border-bottom: solid black;
   padding-bottom: 5px;
 }
 
 .span-correct {
-  font-weight: 1000px;
   color: #1ece22;
   border-bottom: solid black;
   padding-bottom: 5px;
+  border-width: 100%;
 }
 
 .span-wrong {
   font-weight: 1000px;
   color: red;
   border-bottom: solid red;
-  padding-bottom: 5px;
+  padding-bottom: 0;
 }
