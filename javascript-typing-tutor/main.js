@@ -1,16 +1,19 @@
 var $span = document.querySelectorAll('span');
-var $h1 = document.querySelector('.h1-box');
 var i = 0;
 
 function keydownHandle(event) {
-  if (event.key !== $span[i]) {
-    $span[i].className = 'span-wrong';
-    return;
-  }
 
+  if ($span[i].className === 'space span-neutral') {
+    $span[i].className = 'span-correct ';
+    i++;
+  }
+  if (event.key !== $span[i].textContent) {
+    $span[i].classList.add('span-wrong');
+    return i;
+  }
   $span[i].className = 'span-correct';
+  $span[i + 1].classList.add('span-neutral');
   i++;
-  console.log(i);
 
 }
 document.addEventListener('keydown', keydownHandle);

@@ -1,3 +1,6 @@
+body {
+  box-sizing: border-box;
+}
 
 .column-full {
   width: 100%;
@@ -7,8 +10,8 @@
   letter-spacing: -2px;
   font-family: 'Arvo', serif;
   font-weight: bold;
-  justify-content: center;
   text-align: center;
+  margin-top: 25%;
 }
 
 .span-neutral {
@@ -18,7 +21,6 @@
 
 .span-correct {
   color: #1ece22;
-  border-bottom: solid black;
   padding-bottom: 5px;
   border-width: 100%;
 }
