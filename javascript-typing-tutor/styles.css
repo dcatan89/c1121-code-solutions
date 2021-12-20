@@ -31,3 +31,7 @@ body {
   border-bottom: solid red;
   padding-bottom: 0;
 }
+
+span {
+  white-space: pre;
+}
