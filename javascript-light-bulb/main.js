@@ -1,17 +1,17 @@
-var lightOn = document.querySelector('.light-bulb-on');
+var lightBulbClicker = document.querySelector('.light-bulb-on');
 var background = document.querySelector('.light-background');
-var i = true;
+var lightOn = true;
 function onOff(event) {
-  if (i === true) {
-    lightOn.className = 'light-bulb-on';
+  if (lightOn === true) {
+    lightBulbClicker.className = 'light-bulb-on';
     background.className = 'light-background';
-    i = false;
+    lightOn = false;
   } else {
-    lightOn.className = 'light-bulb-off';
+    lightBulbClicker.className = 'light-bulb-off';
     background.className = 'black-background';
-    i = true;
+    lightOn = true;
   }
 
 }
 
-lightOn.addEventListener('click', onOff);
+lightBulbClicker.addEventListener('click', onOff);
