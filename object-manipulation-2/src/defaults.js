@@ -7,16 +7,10 @@ function defaults(target, source) {
   var newObj = {};
 
   for (var prop in source) {
-    if (source[prop]) {
-      newObj[prop] = source[prop];
-    }
-  }
+    if (source[prop] === target[prop] || target[prop] === null) {
+      source[prop] = target[prop];
 
-  for (prop in target) {
-    if (target[prop]) {
-      newObj[prop] = target[prop];
-    }
+    } else if (!target[prop]) { target[prop] = source[prop]; }
   }
-
-  console.log(newObj);
+  return target;
 }
