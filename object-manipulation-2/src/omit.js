@@ -5,12 +5,11 @@
 // check for edge cases such as null, undefined, or empty object literals.
 function omit(source, key) {
   var objectOutput = {};
-
   for (var i = 0; i < key.length; i++) {
     for (var prop in source) {
-      if (prop === key[i]) {
-        delete source[prop];
-      } else { objectOutput[prop]; }
+      if (prop === key[i] || prop === key[i + 1] || prop === key[0]) {
+        objectOutput;
+      } else objectOutput[prop] = source[prop];
     }
   }
   return objectOutput;

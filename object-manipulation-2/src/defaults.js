@@ -4,8 +4,6 @@
 //  -replace and combine the two objects by keeping the values of target and then adding new ones from source
 // console log the new object literal of target
 function defaults(target, source) {
-  var newObj = {};
-
   for (var prop in source) {
     if (source[prop] === target[prop] || target[prop] === null) {
       source[prop] = target[prop];
