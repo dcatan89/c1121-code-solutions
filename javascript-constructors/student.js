@@ -17,7 +17,3 @@ Student.prototype.getIntroduction = function () {
       this.subject + '.';
   return description;
 };
-
-Object.setPrototypeOf($student, prototypes);
-Student
-  . console.log($student);
