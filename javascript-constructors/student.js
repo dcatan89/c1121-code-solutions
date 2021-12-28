@@ -1,19 +1,23 @@
-/* exported Student */
+
 function Student(firstName, lastName, subject) {
   this.firstName = firstName,
   this.lastName = lastName,
   this.subject = subject;
 }
 
-function getFullName() {
-  this.getFullName = function () {
-    var fullName = this.firstName + ' ' + this.lastName;
-    return fullName;
-  };
-}
-
 var $student = new Student('DJ', 'Catan', 'JavaScript');
-$student.getFullName();
-console.log($student);
 
-Object.setPrototypeOf(Student, getFullName());
+Student.prototype.getFullName = function () {
+  var fullName = this.firstName + ' ' + this.lastName;
+  return fullName;
+};
+
+Student.prototype.getIntroduction = function () {
+  var description = 'Hello, my name is ' + this.getFullName() + ' and I am studying ' +
+      this.subject + '.';
+  return description;
+};
+
+Object.setPrototypeOf($student, prototypes);
+Student
+  . console.log($student);
