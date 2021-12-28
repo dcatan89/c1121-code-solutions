@@ -11,9 +11,7 @@ function pick(source, key) {
   var objectOutput = {};
 
   for (var i = 0; i < key.length; i++) {
-    if (source[key[i]] === undefined) {
-      objectOutput;
-    } else if (source[key[i]] || (source[key[i]]) === 0 || source[key[i]] === null) {
+    if ((source[key[i]] || (source[key[i]]) === 0 || source[key[i]] === null) && (source[key[i]] !== undefined)) {
       objectOutput[key[i]] = source[key[i]];
     }
   }

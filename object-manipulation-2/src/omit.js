@@ -7,9 +7,7 @@ function omit(source, key) {
   var objectOutput = {};
   for (var i = 0; i < key.length; i++) {
     for (var prop in source) {
-      if (prop !== key[i] || prop !== key[i + 1] || prop !== key[0]) {
-        objectOutput[prop] = source[prop];
-      } else {
+      if (prop !== key[i] && prop !== key[i + 1] && prop !== key[0]) {
         objectOutput[prop] = source[prop];
       }
     }
