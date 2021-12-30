@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Carousel</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row ">
+      <div class="column-full margin-auto ">
+        <div class="row fas-section">
+          <div class="column-full">
+            <i class="arrows-left fas fa-chevron-left"></i>
+          </div>
+          <img class="imgs column-full view" data-view="1" src="images/001.png">
+          <img class="hidden imgs column-full view" data-view="2" src="images/004.png">
+          <img class="hidden imgs column-full view" data-view="3" src="images/007.png">
+          <img class="hidden imgs column-full view"  data-view="4" src="images/025.png">
+          <img class="hidden imgs column-full view" data-view="5" src="images/039.png">
+          <div class="column-full justify-right ">
+            <i class=" arrows-right fas fa-chevron-right"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="row circle-section">
+        <div class="span-section" >
+          <span class="circles fas fa-circle view" data-view="1"></span>
+          <span class="circles far fa-circle view" data-view="2"></span>
+          <span class="circles far fa-circle view" data-view="3"></span>
+          <span class="circles far fa-circle view" data-view="4"></span>
+          <span class="circles far fa-circle view" data-view="5"></span>
+        </div>
+      </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

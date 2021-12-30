@@ -1,0 +1,47 @@
+.hidden {
+  display: none;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  border-style: solid;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-half {
+  width: 50%;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+.arrows-left,
+.arrows-right {
+  font-size: 48px;
+}
+
+.justify-right {
+  text-align: right;
+}
+
+.fas-section {
+  align-items: center;
+}
+
+.imgs {
+  width: 100%;
+  margin: auto;
+}
+
+.circle-section {
+  justify-content: center;
+}
